@@ -16,7 +16,7 @@ if [ ! -z "$(ps aux | grep chromium | grep -v 'grep' )" ];then
 fi
 
 rm -rf ~/chromium78 &>/dev/null
-git clone https://github.com/Botspot/chromium78 || error "Failed to clone repository!"
+git clone https://github.com/theofficialgman/chromium78 || error "Failed to clone repository!"
 
 #extract chromium-browser binary
 cd ~/chromium78/usr/lib/chromium-browser

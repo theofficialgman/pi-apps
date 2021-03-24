@@ -17,7 +17,7 @@ fi
 
 rm -rf ~/chromium86 chromium86.zip
 echo "Downloading..."
-wget https://github.com/Botspot/chromium86/releases/download/86/chromium86.zip
+wget https://github.com/theofficialgman/chromium86/releases/download/86/chromium86.zip
 
 echo "Extracting..."
 unzip chromium86.zip

@@ -20,4 +20,4 @@ rm ~/.local/share/applications/wine-explorer.desktop || error 'Failed to remove 
 echo -e "\e[93mYou just uninstalled the Wine app, but it's not completely gone yet.
 To prevent accidental data loss, your Wine configuration is still located in the $HOME/.wine folder. Feel free to delete it to save space or to troubleshoot problems.
 
-Thanks for reading! -Botspot\e[39m"
+Thanks for reading! -theofficialgman\e[39m"

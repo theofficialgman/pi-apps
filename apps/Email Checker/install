@@ -35,7 +35,7 @@ if [ -d ~/raspi-email-checker ];then
 The checkmail.py script inside may contain a password!\\e[39m"
 fi
 
-git clone https://github.com/Botspot/raspi-email-checker || error 'Failed to clone repository!'
+git clone https://github.com/theofficialgman/raspi-email-checker || error 'Failed to clone repository!'
 
 #hostname
 sed -i "s/hostname2replace/$(echo "$output" | sed "1q;d")/g" ~/raspi-email-checker/checkmail.py

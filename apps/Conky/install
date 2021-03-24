@@ -11,7 +11,7 @@ function error {
 #If a certain command is necessary for installation to continue, then add this to the end of it:
 # || error 'reason'
 #example below:
-wget -O ~/.conkyrc https://raw.githubusercontent.com/Botspot/rpi_conky/master/conkyrc || error 'Failed to download conkyrc!!'
+wget -O ~/.conkyrc https://raw.githubusercontent.com/theofficialgman/rpi_conky/master/conkyrc || error 'Failed to download conkyrc!!'
 
 #change eth0 to wlan0 in conky config if user is currently using WiFi
 interface="$(ip addr | awk '/state UP/ {print $2}' | tr -d ':' | head -n 1)"

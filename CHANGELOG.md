@@ -48,7 +48,7 @@ At this point, grayduck has said Pi-Apps will be added to TwisterOS.
 - **12/11/2020** Updated Etcher and added Sublime Text app
 - **12/21/2020** Added Intellij Idea and Powerline Shell apps
 - **12/24/2020** Added Doom 3 app.
-- **12/27/2020** Boxy SVG app uses [Boxy-SVG-RPi](https://github.com/Botspot/Boxy-SVG-RPi) and Box86 app uses [box86-updater](https://github.com/Botspot/box86-updater)
+- **12/27/2020** Boxy SVG app uses [Boxy-SVG-RPi](https://github.com/theofficialgman/Boxy-SVG-RPi) and Box86 app uses [box86-updater](https://github.com/theofficialgman/box86-updater)
 - **12/28/2020** Added Eagle and YouTubuddy apps
 - **12/29/2020** Changed Doom 3 app to not wget script and added the "a guy" story in the README :laughing:
 - **1/2/2021** Removed Cordless app due to users being banned by Discord and support being dropped. Added Whatsapp and Vivaldi browser

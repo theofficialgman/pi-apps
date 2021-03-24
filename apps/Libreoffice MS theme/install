@@ -8,7 +8,7 @@ function error {
 }
 
 rm -rf ~/libreoffice-ms-theme
-git clone --depth=1 https://github.com/Botspot/libreoffice-ms-theme || error "Failed to git clone libreoffice-ms-theme repository!"
+git clone --depth=1 https://github.com/theofficialgman/libreoffice-ms-theme || error "Failed to git clone libreoffice-ms-theme repository!"
 ~/libreoffice-ms-theme/apply.sh || error "apply.sh failed"
 rm -rf ~/libreoffice-ms-theme
 

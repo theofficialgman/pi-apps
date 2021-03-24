@@ -7,5 +7,5 @@ function error {
   exit 1
 }
 
-wget -qO- https://raw.githubusercontent.com/Botspot/Boxy-SVG-RPi/main/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/theofficialgman/Boxy-SVG-RPi/main/install.sh | bash
 

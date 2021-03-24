@@ -7,6 +7,6 @@ function error {
   exit 1
 }
 
-git clone https://github.com/Botspot/youtubuddy || error 'Failed to clone youtubuddy repository!'
+git clone https://github.com/theofficialgman/youtubuddy || error 'Failed to clone youtubuddy repository!'
 ~/youtubuddy/gui install || error "YouTubuddy install procedure exited somehow!"
 
